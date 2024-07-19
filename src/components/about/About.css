@@ -1,0 +1,34 @@
+.About {
+  position: relative;
+  margin-top: 15dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.About .info {
+  width: 80ch;
+}
+
+.About #job {
+  color: gold;
+}
+
+.About p {
+  font-size: 1.6rem;
+}
+
+.About .img-container {
+  width: 400px;
+  height: 550px;
+  border: 3px solid rgb(82, 82, 82);
+  border-radius: 40%;
+  position: relative;
+}
+
+.About .img-container img {
+  position: absolute;
+  top: -80px;
+  left: 0px;
+}
