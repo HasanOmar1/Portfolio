@@ -6,12 +6,3 @@
   background-color: rgba(11, 184, 124, 0.075);
   margin-bottom: 50px;
 }
-
-.Tech .cards-container {
-  padding-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
-  flex-wrap: wrap;
-}

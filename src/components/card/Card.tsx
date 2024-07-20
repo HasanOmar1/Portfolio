@@ -7,8 +7,8 @@ type CardProps = {
 const Card = ({ src, alt, about }: CardProps) => {
   return (
     <div className="tooltip">
-      <img className="card" src={src} alt={alt} />;
-      <span className="tooltiptext">{about}</span>
+      <img className="card" src={src} alt={alt} />
+      <span className="tooltip-text">{about}</span>
     </div>
   );
 };

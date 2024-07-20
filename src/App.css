@@ -24,6 +24,15 @@ body {
   padding-bottom: 10px;
 }
 
+.cards-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
 .card {
   width: 250px;
   height: 200px;
@@ -33,11 +42,12 @@ body {
   padding: 20px;
 }
 
-.tooltip {
+.tooltip,
+.hasan-tooltip {
   position: relative;
 }
 
-.tooltip .tooltiptext {
+.tooltip-text {
   visibility: hidden;
   width: 170px;
   padding: 10px;
@@ -46,11 +56,20 @@ body {
   text-align: center;
   border-radius: 6px;
   position: absolute;
-  left: 50px;
-  top: -40px;
   z-index: 1;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip .tooltip-text {
+  left: 50px;
+  top: -40px;
+}
+
+.tooltip:hover .tooltip-text,
+.hasan-tooltip:hover .tooltip-text {
   visibility: visible;
+}
+
+.hasan-tooltip .tooltip-text {
+  left: 100px;
+  top: -42px;
 }

@@ -28,8 +28,9 @@ const About = () => {
           </p>
         </div>
 
-        <div className="img-container">
-          <img src={myImg} alt="my-img" />
+        <div className="img-container hasan-tooltip">
+          <img src={myImg} alt="hasan's photo'" />
+          <span className="tooltip-text">Hasan</span>
         </div>
       </div>
     </main>
