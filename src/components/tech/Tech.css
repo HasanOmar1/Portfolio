@@ -3,6 +3,8 @@
   border-top: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
   background-color: rgba(11, 184, 124, 0.075);
-  margin-bottom: 50px;
 }

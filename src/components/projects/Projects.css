@@ -1,0 +1,8 @@
+.Projects {
+  border: 1px solid darkolivegreen;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: rgba(17, 0, 255, 0.075);
+  margin-bottom: 50px;
+}
