@@ -9,3 +9,48 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #333;
 }
+
+.section {
+  position: relative;
+  margin: 0 10dvw;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  border: 2px solid darkseagreen;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.687);
+  padding: 20px;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 170px;
+  padding: 10px;
+  background-color: rgba(45, 36, 107, 0.546);
+  color: gold;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  left: 50px;
+  top: -40px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

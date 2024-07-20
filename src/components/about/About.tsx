@@ -3,7 +3,7 @@ import myImg from "../../assets/me.png";
 
 const About = () => {
   return (
-    <main className="About" id="about-section">
+    <main className="About section" id="about-section">
       <h1 className="title">About</h1>
       <div className="about-container">
         <div className="info">
@@ -23,10 +23,8 @@ const About = () => {
 
           <p>
             After the bootcamp I learned more technologies such as
-            <span className="tech">
-              {" "}
-              TypeScript, SQL, Data Structures and Algorithms{" "}
-            </span>
+            <span className="tech"> TypeScript, SQL </span>
+            and more!
           </p>
         </div>
 
