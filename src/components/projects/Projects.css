@@ -4,5 +4,14 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   background-color: rgba(17, 0, 255, 0.075);
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+}
+
+.Projects .title {
+  padding-bottom: 70px;
+}
+
+.Projects .projects-container {
+  display: flex;
+  gap: 100px;
 }

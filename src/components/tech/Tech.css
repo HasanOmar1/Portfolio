@@ -8,3 +8,7 @@
   border-bottom: none;
   background-color: rgba(11, 184, 124, 0.075);
 }
+
+.Tech .title {
+  padding-bottom: 70px;
+}

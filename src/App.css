@@ -14,7 +14,7 @@ body {
   position: relative;
   margin: 0 10dvw;
   border-radius: 20px;
-  padding: 30px;
+  padding: 80px;
 }
 
 .title {
@@ -39,7 +39,7 @@ body {
   border: 2px solid darkseagreen;
   border-radius: 20px;
   background-color: rgba(128, 128, 128, 0.687);
-  padding: 20px;
+  padding: 40px;
 }
 
 .tooltip,
@@ -60,7 +60,7 @@ body {
 }
 
 .tooltip .tooltip-text {
-  left: 50px;
+  left: 45px;
   top: -40px;
 }
 

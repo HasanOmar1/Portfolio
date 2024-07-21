@@ -1,0 +1,50 @@
+.VideoCard {
+  border: 1px solid lightcoral;
+  border-radius: 20px;
+  padding: 20px 30px;
+  width: fit-content;
+}
+
+.VideoCard iframe {
+  border-radius: 20px;
+}
+
+.VideoCard .project-name {
+  text-align: center;
+  padding: 40px;
+  text-decoration: underline 2px solid lightgreen;
+  text-underline-offset: 7px;
+}
+
+.VideoCard .videoCard-container {
+  display: flex;
+  gap: 100px;
+}
+
+.VideoCard .links-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.VideoCard .links {
+  display: flex;
+  border: 1px solid lightgreen;
+  border-radius: 20px;
+  padding: 10px 100px;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: 0.2s;
+}
+
+.VideoCard a.links:hover {
+  color: brown;
+  background-color: rgba(128, 128, 128, 0.687);
+  border-color: cadetblue;
+}
+
+.VideoCard .links:visited {
+  color: aliceblue;
+}
