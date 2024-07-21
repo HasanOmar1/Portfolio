@@ -1,20 +1,6 @@
 import VideoCard from "../videoCard/VideoCard";
 import "./Projects.css";
-
-const projectDetails = {
-  booksLibrary: {
-    title: "Books Library",
-    videoSrc: "https://www.youtube.com/embed/ATxQpqJ1TVU?si=hXJwtfS8ga-QDssI",
-    gitHubLink: "https://github.com/HasanOmar1/Book-Library-Fullstack",
-    websiteLink: "https://books-library.netlify.app/",
-  },
-  kiraz: {
-    title: "Kiraz",
-    videoSrc: "https://www.youtube.com/embed/ATxQpqJ1TVU?si=hXJwtfS8ga-QDssI",
-    gitHubLink: "https://github.com/HasanOmar1/Kiraz",
-    websiteLink: "https://kiraz-clothing.netlify.app/",
-  },
-};
+import { projectDetails } from "../../utils/projects";
 
 const Projects = () => {
   return (
