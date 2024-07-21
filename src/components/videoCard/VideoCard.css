@@ -7,7 +7,7 @@
 }
 
 .VideoCard:hover {
-  background-color: rgba(189, 183, 107, 0.266);
+  box-shadow: -1px 1px 25px 10px rgba(0, 0, 0);
 }
 .VideoCard iframe {
   border-radius: 20px;
