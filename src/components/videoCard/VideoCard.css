@@ -3,8 +3,12 @@
   border-radius: 20px;
   padding: 20px 30px;
   width: fit-content;
+  transition: 0.2s;
 }
 
+.VideoCard:hover {
+  background-color: rgba(189, 183, 107, 0.266);
+}
 .VideoCard iframe {
   border-radius: 20px;
 }
