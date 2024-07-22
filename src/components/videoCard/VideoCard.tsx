@@ -19,8 +19,6 @@ const VideoCard = ({
     <div className="VideoCard">
       <h2 className="project-name">{title}</h2>
       <iframe
-        width="560"
-        height="315"
         src={videoSrc}
         title={`${title} Video`}
         frameBorder="0"
