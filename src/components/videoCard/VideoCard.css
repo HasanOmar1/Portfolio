@@ -55,6 +55,20 @@
   color: aliceblue;
 }
 
+@media (max-width: 1770px) {
+  .VideoCard {
+    width: 500px;
+  }
+
+  .VideoCard iframe {
+    width: 300px;
+  }
+
+  .VideoCard .links {
+    padding: 10px 35px;
+  }
+}
+
 @media (max-width: 1024px) {
   .VideoCard iframe {
     width: 300px;
