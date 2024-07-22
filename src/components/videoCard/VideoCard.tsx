@@ -16,7 +16,7 @@ const VideoCard = ({
   title,
 }: VideoCardProps) => {
   return (
-    <div className="VideoCard video-card">
+    <div className="VideoCard">
       <h2 className="project-name">{title}</h2>
       <iframe
         width="560"

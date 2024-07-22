@@ -9,7 +9,9 @@ const App = () => {
   return (
     <>
       <ParticlesTS />
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <About />
       <Tech />
       <Projects />

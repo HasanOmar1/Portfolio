@@ -20,11 +20,6 @@
   text-underline-offset: 7px;
 }
 
-.VideoCard .videoCard-container {
-  display: flex;
-  gap: 100px;
-}
-
 .VideoCard .links-container {
   display: flex;
   justify-content: center;
@@ -51,4 +46,19 @@
 
 .VideoCard .links:visited {
   color: aliceblue;
+}
+
+@media (max-width: 430px) {
+  .VideoCard {
+    margin-left: -50px;
+    width: 350px;
+  }
+
+  .VideoCard iframe {
+    width: 300px;
+  }
+
+  .VideoCard .links {
+    padding: 10px 35px;
+  }
 }

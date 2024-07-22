@@ -6,10 +6,10 @@ const About = () => {
     <main className="About section" id="about-section">
       <h1 className="title">About</h1>
       <div className="about-container">
-        <div className="info">
+        <div>
           <p>
             Hello, My name is<b id="name"> Hasan </b> and im a
-            <b id="job"> Full Stack Developer </b>I finished a Full Stack
+            <b id="job"> Full Stack Developer </b>,I finished a Full Stack
             bootcamp at
             <b id="company"> Appleseeds</b> where I did an intensive 4 months of
             learning about the<span className="tech"> MERN Stack </span>

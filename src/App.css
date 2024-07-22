@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 50px;
   flex-wrap: wrap;
 }
 
@@ -73,4 +73,37 @@ body {
 .hasan-tooltip .tooltip-text {
   left: 100px;
   top: -42px;
+}
+
+@media (max-width: 430px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .tooltip-text {
+    width: 150px;
+  }
+  .tooltip .tooltip-text {
+    left: 0px;
+  }
+
+  .hasan-tooltip .tooltip-text {
+    left: 60px;
+  }
+
+  .section {
+    width: 400px;
+    margin: 0 20px;
+  }
+
+  .cards-container {
+    width: 350px;
+    gap: 50px;
+    margin-left: -50px;
+  }
+
+  .card {
+    width: 150px;
+    padding: 30px;
+  }
 }

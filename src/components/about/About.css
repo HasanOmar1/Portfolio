@@ -9,7 +9,7 @@
   padding-bottom: 100px;
 }
 
-.about-container {
+.About .about-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,4 +52,28 @@
   position: absolute;
   top: -80px;
   left: 0px;
+}
+
+@media (max-width: 430px) {
+  .About .about-container {
+    flex-direction: column;
+  }
+
+  .About .title {
+    padding-bottom: 50px;
+  }
+
+  .About p {
+    font-size: 1rem;
+    width: 30ch;
+  }
+  .About .img-container {
+    width: 300px;
+    height: 400px;
+    margin-top: -100px;
+  }
+  .About .img-container img {
+    width: 300px;
+    top: -60px;
+  }
 }
