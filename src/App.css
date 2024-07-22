@@ -109,6 +109,10 @@ body {
   .card {
     width: 200px;
   }
+
+  .tooltip .tooltip-text {
+    left: 20px;
+  }
 }
 
 @media (max-width: 430px) {
@@ -118,9 +122,11 @@ body {
 
   .tooltip-text {
     width: 150px;
+    font-size: 1.2rem;
   }
   .tooltip .tooltip-text {
     left: 0px;
+    top: -40px;
   }
 
   .hasan-tooltip .tooltip-text {
