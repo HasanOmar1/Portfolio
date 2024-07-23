@@ -1,18 +1,17 @@
 .VideoCard {
-  border: 1px solid lightcoral;
   border-radius: 20px;
   padding: 20px 30px;
-  width: fit-content;
   transition: 0.2s;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-bottom: 50px;
+  box-shadow: -1px 1px 25px 10px rgba(0, 0, 0);
 }
 
 .VideoCard:hover {
-  box-shadow: -1px 1px 25px 10px rgba(0, 0, 0);
+  box-shadow: -1px 1px 25px 10px rgb(44, 59, 158);
 }
 .VideoCard iframe {
   border-radius: 20px;
@@ -22,7 +21,7 @@
 
 .VideoCard .project-name {
   text-align: center;
-  padding: 40px;
+  padding: 40px 0;
   text-decoration: underline 2px solid lightgreen;
   text-underline-offset: 7px;
 }
@@ -70,10 +69,6 @@
 }
 
 @media (max-width: 1024px) {
-  .VideoCard iframe {
-    width: 300px;
-  }
-
   .VideoCard .links {
     padding: 10px 35px;
   }
@@ -89,12 +84,26 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 675px) {
   .VideoCard {
-    width: 350px;
+    width: 400px;
   }
 
   .VideoCard iframe {
+    width: 350px;
+  }
+}
+
+@media (max-width: 430px) {
+  .VideoCard {
     width: 300px;
+  }
+
+  .VideoCard iframe {
+    width: 250px;
+  }
+
+  .VideoCard .links-container {
+    flex-direction: column;
   }
 }

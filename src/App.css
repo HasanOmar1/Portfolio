@@ -75,7 +75,7 @@ body {
   top: -42px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1135px) {
   .tooltip .tooltip-text,
   .hasan-tooltip .tooltip-text {
     top: -50px;
@@ -85,12 +85,17 @@ body {
   }
 
   .section {
-    margin: 0 5dvw;
-    width: 900px;
+    width: 820px;
   }
 
   .cards-container {
     gap: 50px 100px;
+  }
+}
+
+@media (max-width: 930px) {
+  .section {
+    margin: 0 20px;
   }
 }
 
@@ -115,6 +120,24 @@ body {
   }
 }
 
+@media (max-width: 675px) {
+  .section {
+    width: 500px;
+  }
+
+  .cards-container {
+    width: 450px;
+    gap: 50px;
+    margin-left: -60px;
+  }
+}
+
+@media (max-width: 570px) {
+  .section {
+    margin: 0 30px;
+  }
+}
+
 @media (max-width: 430px) {
   .title {
     font-size: 2rem;
@@ -134,18 +157,24 @@ body {
   }
 
   .section {
-    width: 400px;
+    width: 360px;
     margin: 0 20px;
   }
 
   .cards-container {
     width: 350px;
-    gap: 50px;
-    margin-left: -50px;
+    gap: 30px;
+    margin-left: -77px;
   }
 
   .card {
-    width: 150px;
+    width: 140px;
     padding: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section {
+    margin: 0 10px;
   }
 }
