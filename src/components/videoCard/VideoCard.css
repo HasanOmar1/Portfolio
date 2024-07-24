@@ -13,7 +13,8 @@
 .VideoCard:hover {
   box-shadow: -1px 1px 25px 10px rgb(44, 59, 158);
 }
-.VideoCard iframe {
+.VideoCard iframe,
+.VideoCard img {
   border-radius: 20px;
   width: 560px;
   height: 315px;
@@ -59,7 +60,8 @@
     width: 500px;
   }
 
-  .VideoCard iframe {
+  .VideoCard iframe,
+  .VideoCard img {
     width: 300px;
   }
 
@@ -79,7 +81,8 @@
     width: 500px;
   }
 
-  .VideoCard iframe {
+  .VideoCard iframe,
+  .VideoCard img {
     width: 400px;
   }
 }
@@ -89,7 +92,8 @@
     width: 400px;
   }
 
-  .VideoCard iframe {
+  .VideoCard iframe,
+  .VideoCard img {
     width: 350px;
   }
 }
@@ -99,7 +103,8 @@
     width: 300px;
   }
 
-  .VideoCard iframe {
+  .VideoCard iframe,
+  .VideoCard img {
     width: 250px;
   }
 

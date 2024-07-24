@@ -12,4 +12,16 @@ export const projectDetails = {
     gitHubLink: "https://github.com/HasanOmar1/Kiraz",
     websiteLink: "https://kiraz-clothing.netlify.app/",
   },
+  gamesFinder: {
+    title: "Games Finder",
+    imgSrc: "https://shorturl.at/KSWir",
+    gitHubLink: "https://github.com/HasanOmar1/Gaming-Site-Project",
+    websiteLink: "https://gamers-on-top.netlify.app/",
+  },
+  minecraft: {
+    title: "2D Minecraft",
+    imgSrc: "https://shorturl.at/HpXT1",
+    gitHubLink: "https://github.com/HasanOmar1/Minecraft",
+    websiteLink: "https://2d-minecraft-i-think.netlify.app/",
+  },
 };
