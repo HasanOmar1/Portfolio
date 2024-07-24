@@ -37,16 +37,6 @@ const VideoCard = ({
         </iframe>
       )}
       {image && <img src={imageSrc} alt={title} />}
-      {/* <iframe
-        src={videoSrc}
-        title={`${title} Video`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      >
-        Your Browser Does Not Support Iframes
-      </iframe> */}
 
       <div className="links-container">
         <div className="tooltip">
