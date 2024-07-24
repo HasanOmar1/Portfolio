@@ -1,3 +1,6 @@
+import gamesFinderImg from "../assets/project-img/gamesFinder.png";
+import minecraftImg from "../assets/project-img/minecraft.png";
+
 export const projectDetails = {
   booksLibrary: {
     title: "Books Library",
@@ -14,13 +17,13 @@ export const projectDetails = {
   },
   gamesFinder: {
     title: "Games Finder",
-    imgSrc: "https://shorturl.at/KSWir",
+    imgSrc: gamesFinderImg,
     gitHubLink: "https://github.com/HasanOmar1/Gaming-Site-Project",
     websiteLink: "https://gamers-on-top.netlify.app/",
   },
   minecraft: {
     title: "2D Minecraft",
-    imgSrc: "https://shorturl.at/HpXT1",
+    imgSrc: minecraftImg,
     gitHubLink: "https://github.com/HasanOmar1/Minecraft",
     websiteLink: "https://2d-minecraft-i-think.netlify.app/",
   },
