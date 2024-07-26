@@ -1,19 +1,19 @@
-import mongoDB from "../assets/mongoDB.png";
-import react from "../assets/react.png";
-import javaScript from "../assets/javascript.png";
-import typeScript from "../assets/typescript.png";
-import nodeJS from "../assets/nodeJS.png";
-import expressJS from "../assets/expressJS.png";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import sql from "../assets/sql.png";
-import git from "../assets/git.png";
-import redux from "../assets/redux.png";
-import bootstrap from "../assets/bootstrap.png";
-import materialUI from "../assets/materialUI.png";
-import styledComponents from "../assets/styledComponents.png";
-import jwt from "../assets/jwt.png";
-import puppeteer from "../assets/puppeteer.png";
+import mongoDB from "../assets/mongoDB.webp";
+import react from "../assets/react.webp";
+import javaScript from "../assets/javascript.webp";
+import typeScript from "../assets/typescript.webp";
+import nodeJS from "../assets/nodeJS.webp";
+import expressJS from "../assets/expressJS.webp";
+import html from "../assets/html.webp";
+import css from "../assets/css.webp";
+import sql from "../assets/sql.webp";
+import git from "../assets/git.webp";
+import redux from "../assets/redux.webp";
+import bootstrap from "../assets/bootstrap.webp";
+import materialUI from "../assets/materialUI.webp";
+import styledComponents from "../assets/styledComponents.webp";
+import jwt from "../assets/jwt.webp";
+import puppeteer from "../assets/puppeteer.webp";
 
 export {
   mongoDB,

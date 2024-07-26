@@ -1,5 +1,5 @@
-import gamesFinderImg from "../assets/project-img/gamesFinder.png";
-import minecraftImg from "../assets/project-img/minecraft.png";
+import gamesFinderImg from "../assets/project-img/gamesFinder.webp";
+import minecraftImg from "../assets/project-img/minecraft.webp";
 
 export const projectDetails = {
   booksLibrary: {
