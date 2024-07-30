@@ -72,8 +72,17 @@
 }
 
 @media (max-width: 1024px) {
+  .VideoCard {
+    width: 700px;
+  }
+
+  .VideoCard iframe,
+  .VideoCard img {
+    width: 550px;
+  }
+
   .VideoCard .links {
-    padding: 10px 35px;
+    padding: 24px 100px;
   }
 }
 
@@ -86,9 +95,13 @@
   .VideoCard img {
     width: 400px;
   }
+
+  .VideoCard .links {
+    padding: 24px 40px;
+  }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 540px) {
   .VideoCard {
     width: 400px;
   }

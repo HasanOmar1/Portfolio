@@ -12,3 +12,12 @@
 .Tech .title {
   padding-bottom: 70px;
 }
+
+@media (max-width: 1024px) {
+  .Tech {
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+  }
+}

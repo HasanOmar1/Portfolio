@@ -40,13 +40,18 @@ const VideoCard = ({
 
       <div className="links-container">
         <div className="tooltip">
-          <a className="links" href={gitHubLink} target="_blank">
+          <a className="links" href={gitHubLink} target="_blank" title="Github">
             <FaGithub />
           </a>
           <div className="tooltip-text">GitHub</div>
         </div>
         <div className="tooltip">
-          <a className="links" href={websiteLink} target="_blank">
+          <a
+            className="links"
+            href={websiteLink}
+            target="_blank"
+            title="Website"
+          >
             <CgWebsite />
           </a>
           <div className="tooltip-text">Website</div>
