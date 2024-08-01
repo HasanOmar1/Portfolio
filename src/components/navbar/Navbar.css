@@ -1,12 +1,12 @@
 nav {
-  width: 79dvw;
-  background-color: rgba(0, 139, 139, 0.2);
+  width: 79.1dvw;
+  background-color: rgba(0, 139, 139, 0.7);
   min-height: 7dvh;
   margin: 0 10dvw;
   border-bottom: 1px solid lightgreen;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 99;
   display: flex;
   justify-content: center;
   align-items: center;

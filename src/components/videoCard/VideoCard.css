@@ -8,6 +8,21 @@
   flex-direction: column;
   padding-bottom: 50px;
   box-shadow: -1px 1px 25px 10px rgba(0, 0, 0);
+
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .VideoCard:hover {
@@ -113,6 +128,12 @@
 }
 
 @media (max-width: 430px) {
+  @keyframes appear {
+    from {
+      transform: translateX(60px);
+    }
+  }
+
   .VideoCard {
     width: 300px;
   }
@@ -124,5 +145,13 @@
 
   .VideoCard .links-container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 380px) {
+  @keyframes appear {
+    from {
+      transform: translateX(30px);
+    }
   }
 }
