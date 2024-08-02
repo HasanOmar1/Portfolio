@@ -1,11 +1,11 @@
-import "./ContactMe.css";
+import "./Footer.css";
 import { SiGmail } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
-const ContactMe = () => {
+const Footer = () => {
   return (
-    <div className="ContactMe">
+    <footer className="Footer">
       <a
         href="https://mail.google.com/mail/?view=cm&fs=1&to=hasanromar2002@gmail.com"
         target="_blank"
@@ -19,8 +19,8 @@ const ContactMe = () => {
       <a href="https://github.com/hasanomar1" target="_blank">
         <FaGithub className="github-icon icon" /> Hasanomar1
       </a>
-    </div>
+    </footer>
   );
 };
 
-export default ContactMe;
+export default Footer;

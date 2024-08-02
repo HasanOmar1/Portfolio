@@ -3,7 +3,7 @@ import myImg from "../../assets/me.webp";
 
 const About = () => {
   return (
-    <main className="About section" id="about-section">
+    <section className="About section" id="about-section">
       <h1 className="title">About</h1>
       <div className="about-container">
         <div>
@@ -33,7 +33,7 @@ const About = () => {
           <span className="tooltip-text">Hasan</span>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 

@@ -1,4 +1,4 @@
-.ContactMe {
+.Footer {
   width: 79.1dvw;
   background-color: rgba(0, 139, 139, 0.2);
   position: relative;
@@ -11,7 +11,7 @@
   gap: 100px;
 }
 
-.ContactMe a {
+.Footer a {
   font-size: 1.5rem;
   cursor: pointer;
   transition: 0.2s;
@@ -23,53 +23,53 @@
   align-items: center;
 }
 
-.ContactMe a:visited {
+.Footer a:visited {
   color: white;
 }
 
-.ContactMe a:hover,
-.ContactMe a:visited:hover {
+.Footer a:hover,
+.Footer a:visited:hover {
   color: darkgoldenrod;
 }
 
-.ContactMe .gmail-icon {
+.Footer .gmail-icon {
   color: rgb(186, 69, 92);
 }
 
-.ContactMe .icon {
+.Footer .icon {
   transition: 0.2s;
 }
-.ContactMe .linkedin-icon {
+.Footer .linkedin-icon {
   color: rgb(43, 156, 194);
 }
 
-.ContactMe .github-icon {
+.Footer .github-icon {
   color: #241e1e;
 }
 
-.ContactMe a:hover .icon {
+.Footer a:hover .icon {
   color: goldenrod;
 }
 
 @media (max-width: 1135px) {
-  .ContactMe {
+  .Footer {
     width: 100%;
     margin: 0;
   }
 
-  .ContactMe a {
+  .Footer a {
     font-size: 1rem;
   }
 }
 @media (max-width: 1024px) {
-  .ContactMe {
+  .Footer {
     width: 100%;
     margin: 0;
   }
 }
 
 @media (max-width: 675px) {
-  .ContactMe {
+  .Footer {
     flex-direction: column;
     gap: 20px;
     padding: 30px 0;
