@@ -22,6 +22,13 @@ const Projects = () => {
           gitHubLink={projectDetails.kiraz.gitHubLink}
           websiteLink={projectDetails.kiraz.websiteLink}
         />
+        <VideoCard
+          video
+          title={projectDetails.metaScrapper.title}
+          videoSrc={projectDetails.metaScrapper.videoSrc}
+          gitHubLink={projectDetails.metaScrapper.gitHubLink}
+          websiteLink={projectDetails.metaScrapper.websiteLink}
+        />
       </div>
 
       <h2 className="bootcamp-title">Bootcamp Projects</h2>

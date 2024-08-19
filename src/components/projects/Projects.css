@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   gap: 130px;
+  flex-wrap: wrap;
 }
 
 .Projects .bootcamp-title {

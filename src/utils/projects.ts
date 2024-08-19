@@ -15,6 +15,12 @@ export const projectDetails = {
     gitHubLink: "https://github.com/HasanOmar1/Kiraz",
     websiteLink: "https://kiraz-clothing.netlify.app/",
   },
+  metaScrapper: {
+    title: "Meta Data Scrapper",
+    videoSrc: "https://www.youtube.com/embed/uedWgeJFZw0?si=EcmDRBlqgz0oeTZb",
+    gitHubLink: "https://github.com/HasanOmar1/Exam",
+    websiteLink: "https://hasan-tolstoy-exam.netlify.app/",
+  },
   gamesFinder: {
     title: "Games Finder",
     imgSrc: gamesFinderImg,
